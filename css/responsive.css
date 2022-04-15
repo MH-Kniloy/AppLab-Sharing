@@ -34,6 +34,7 @@
   }
 .hero {
     height: 700px;
+    background-position: bottom;
 }
 
 .hero-writing {
@@ -176,7 +177,7 @@
     height: 500px;
   }
   .hero-writing {
-    bottom: 80px;
+    top: 60px;
     left: 50px;
     width: 100%;
   }
@@ -223,7 +224,7 @@
 @media (max-width: 576px) {
   .hero-writing {
     width: 100%;
-    bottom: 50px;
+    top: 20px;
     left: 20px;
   }
   .hero {
@@ -269,6 +270,7 @@
   }
   .hero-writing {
     left: 10px;
+    top: 35px;
   }
   .awesome-apps {
     height: 1350px;
@@ -294,6 +296,7 @@
   }
   .table {
     margin-bottom: 100px;
+    margin-left: 10px;
   }
   .subscription {
     height: 1900px;
