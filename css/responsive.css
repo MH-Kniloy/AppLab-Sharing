@@ -1,0 +1,304 @@
+/* ======================= for 1200px ===================== */
+@media ( max-width: 1200px) {
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--heading-clr);
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: var(--heading-clr);
+  }
+  
+  h3 {
+    font-size: 1em;
+    color: var(--heading-clr);
+  }
+  
+  p {
+    font-size: 1em;
+    color: var(--text-clr);
+  }
+  .container {
+    width: 90%;
+  }
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 0 0;
+  }
+  nav img {
+    margin-right: 0px;
+    
+  }
+.hero {
+    height: 700px;
+}
+
+.hero-writing {
+    width: 50%;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.company-all {
+  display: flex;
+  flex-wrap: wrap;
+}
+.awesome-apps {
+  display: block;
+  height: 1500px;
+}
+.apps-img {
+  text-align: center;
+}
+.apps-writing {
+  text-align: center;
+  margin: 0 0px 0 0;
+ 
+}
+
+.fast-performance {
+ margin: 0px 0 0 0;
+}
+.fast-performance h3 {
+  position: static;
+}
+.fast-performance p {
+  position: static;
+}
+.prototype h3 {
+  position: static;
+}
+.prototype p {
+  position: static;
+}
+.editing h3 {
+  position: static;
+ 
+}
+.editing p {
+  position: static;
+}
+.responsive {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jackpot span {
+   display: none;
+}
+.jackpot {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+ text-align: center;
+}
+.jackpot p {
+  position: static;
+  right: 120px;
+  top: 20px;
+}
+.jackpot h2 {
+  position: static;
+  margin: 0 0 30px;
+}
+.jackpot-icon {
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature-img {
+  z-index: -1;
+}
+.testimonial {
+  height: 1300px;
+  display: block;
+  
+}
+.test-img {
+  text-align: center;
+}
+.test-writing {
+  text-align: center;
+}
+}
+
+/* ====================== for 991px ===================== */
+@media (max-width: 991px) {
+  nav ul li a {
+    margin: 0 6px;
+  }
+  .hero {
+    height: 550px;
+  }
+  .hero-writing {
+    bottom: 1px;
+}
+}
+/* ===================== for 768px =============== */
+@media (max-width: 768px) {
+  h1{
+    font-size: 30px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .showmenu {
+    display: block;
+  }
+  nav button {
+    margin-left: 0px;
+  }
+  nav box-icon {
+    display: block;
+    margin: 20px 0 0 33px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li{
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li a{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .editors-choice {
+    width: 300px;
+  }
+  .hero {
+    height: 500px;
+  }
+  .hero-writing {
+    bottom: 80px;
+    left: 50px;
+    width: 100%;
+  }
+  .apps-img img {
+    width: 100%;
+    text-align: center;
+  }
+  .apps-img {
+    position: relative;
+    left: 60px;
+  }
+  .responsive {
+    flex-direction: column;
+  }
+  .awesome-apps {
+    height: 1800px;
+  }
+  .jackpot-icon {
+    flex-direction: column;
+    height: 1000px;
+    align-items: center;
+  }
+  .design {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 0px;
+    height: 1100px;
+  }
+  .icon1-6 {
+    width: 50%;
+  }
+  .faq {
+    height: 900px;
+  }
+  .faq-wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* ===================== for 576px =============== */
+@media (max-width: 576px) {
+  .hero-writing {
+    width: 100%;
+    bottom: 50px;
+    left: 20px;
+  }
+  .hero {
+    height: 400px;
+  }
+  .awesome-apps {
+    height: 1600px;
+  }
+  .design-img img {
+    width: 100%;
+  }
+  .feature-img img {
+    width: 100%;
+    position: relative;
+    top: 30px;
+  }
+  .test-img img {
+    width: 100%;
+  }
+  
+  footer div img {
+    margin-top: 70px;
+  }
+  footer div ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  footer div a i {
+    margin-top: 30px;
+  }
+  footer div p {
+    margin-top: 40px;
+  }
+  footer {
+    height: 650px;
+  }
+}
+/* ===================== for 400px =============== */
+@media (max-width: 400px) {
+  h2 {
+    font-size: 28px;
+  }
+  .hero-writing {
+    left: 10px;
+  }
+  .awesome-apps {
+    height: 1350px;
+  }
+  .icon1-6 {
+    width: 100%;
+  }
+  .icon1-4 {
+    width: 100%;
+  }
+  .design {
+    height: 800px;
+  }
+  .about {
+    height: 1870px;
+  }
+  .testimonial {
+    height: 1100px;
+  }
+  .sub-table {
+    display: flex;
+    flex-direction: column;
+  }
+  .table {
+    margin-bottom: 100px;
+  }
+  .subscription {
+    height: 1900px;
+  }
+  .download {
+    height: 400px;
+  }
+}

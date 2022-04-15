@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+/* ================== To Hide RightSide WhiteSpace =============== */
+html,body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+/* ================= Custom Properties =============== */
+:root {
+  --btn-clr: #2500f9;
+  --text-clr: #616368;
+  --heading-clr: #242f51;
+  
+}
+/* ============ Typography ============== */
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: var(--heading-clr);
+}
+
+h2 {
+  font-size: 2em;
+  color: var(--heading-clr);
+}
+
+h3 {
+  font-size: 1em;
+  color: var(--heading-clr);
+}
+
+p {
+  font-size: 1.1em;
+  color: var(--text-clr);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.btn {
+  padding: 10px 30px;
+  background-color: var(--btn-clr);
+  color: #ffffff;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: var(--btn-clr);
+  transition: 0.7s;
+}
+/* ================== Main Header =============== */
+nav {
+   display: flex;
+   justify-content: flex-end;
+   padding: 50px 0 0 0;
+   align-items: center;
+}
+nav img {
+  margin-right: auto;
+  cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-clr);
+  margin: 0 22px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: var(--btn-clr);
+}
+nav button {
+  margin-left: 20px;
+}
+nav box-icon {
+  display: none;
+}
+/* ================= hero area ================= */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  background-image: url(../img/hero-phone.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1100px;
+}
+.hero-writing {
+  width: 50%;
+  position: relative;
+  left: 300px;
+  bottom: 100px
+}
+.hero-btn {
+  margin: 30px 0 0 0;
+}
+.editors-choice {
+  position: relative;
+  background-color: #e2eaed;
+  border-radius: 50px;
+  width: 400px;
+  height: 35px;
+}
+.editors-choice img {
+  background-color: #e2eaed;
+  border-radius: 50px;
+}
+.editors-choice p {
+   display: inline-block;
+   position: absolute;
+   top: 3px;
+   background-color: #e2eaed;
+   border-radius: 50px;
+}
+/* =================== companies =============== */
+.companies {
+  text-align: center;
+   
+}
+.company-all {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 80px 0;
+}
+.companies span{
+   display: block;
+   color: var(--heading-clr);
+   margin: 0 0 30px 0;
+}
+/* ======================== awesome apps ================= */
+.awesome-apps {
+  display: flex;
+  justify-content: center;
+}
+.apps-writing {
+  margin: 0 200px 0 0;
+}
+.apps-img {
+  margin: 0 100px 0 0;
+}
+.fast-performance {
+ margin: 60px 0 0 0;
+}
+.fast-performance h3 {
+  position: relative;
+  left: 130px;
+  bottom: 120PX;
+  padding: 0 0 10px 0;
+  color: #f66b79;
+}
+.fast-performance p {
+  position: relative;
+  left: 130px;
+  bottom: 120PX;
+}
+.prototype h3 {
+  position: relative;
+  left: 130px;
+  bottom: 120PX;
+  padding: 0 0 10px 0;
+  color: #2563ff;
+}
+.prototype p {
+  position: relative;
+  left: 130px;
+  bottom: 120PX;
+}
+.editing h3 {
+  position: relative;
+  left: 130px;
+  bottom: 120PX;
+  padding: 0 0 10px 0;
+  color: #40975f;
+}
+.editing p {
+  position: relative;
+  left: 130px;
+  bottom: 120PX;
+}
+/* ===================== jackpot =================== */
+.jackpot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.jackpot span {
+  height: 140px;
+  border: #616368 solid 0.2px;
+}
+.jackpot p {
+  position: relative;
+  right: 120px;
+  top: 20px;
+}
+.jackpot h2 {
+  position: relative;
+  bottom: 20px;
+}
+.jackpot-icon {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.red img {
+  padding: 0 0 10px 0;
+}
+.red h3 {
+  padding: 0 0 10px 0;
+  color: #f66b79;
+}
+.blue img {
+  padding: 0 0 10px 0;
+}
+.blue h3 {
+  padding: 0 0 10px 0;
+  color: #2563ff;
+}
+.green img {
+  padding: 0 0 10px 0;
+}
+.green h3 {
+  padding: 0 0 10px 0;
+  color: #40975f;
+}
+
+/* ================== design ==================== */
+.design {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 120px;
+}
+.design-writing {
+  position: relative;
+  top: 120px;
+}
+.design h2 {
+  margin-bottom: 15px;
+}
+.design p {
+  margin-bottom: 25px;
+}
+/* ================================= about ========================= */
+.about-writing {
+  text-align: center;
+}
+.about-writing h2 {
+  margin: 60px 0 15px 0;
+}
+.about-writing p {
+  margin-bottom: 80px;
+}
+.about-icon {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.icon1-6 {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.icon1-6 img,h3 {
+  margin-bottom: 15px;
+}
+/* ======================= features ===================== */
+.feature-writing {
+  margin: 180px 0 80px 80px;
+}
+.features {
+  display: flex;
+  justify-content: center;
+}
+.feature-icon {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+.icon1-4 {
+  width: 50%;
+}
+.icon1-4 img,h3 {
+  margin-bottom: 15px;
+}
+.feature-img img {
+  position: relative;
+  bottom: 180px;
+}
+/* ===================== subscription ==================== */
+.subscription {
+  height: 1200px;
+}
+.sub-writing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.sub-writing h2 {
+  margin-bottom: 30px;
+}
+.sub-writing p {
+  margin-bottom: 70px;
+}
+.switch {
+  width: 260px;
+  height: 50px;
+  border: 2px solid #e2eaed;
+  margin-bottom: 60px;
+  border-radius: 50px;
+}
+.btn-sub {
+  color: var(--text-clr);
+  transition: 0.7s;
+  padding: 9px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+.btn-sub:hover {
+  color: #ffffff;
+  transition: 0.7s;
+  padding: 9px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: var(--btn-clr);
+}
+.sub-table {
+  display: flex;
+  justify-content: center;
+}
+.table {
+  display: inline-block;
+  height: 600px;
+  width: 300px;
+  text-align: center;
+  margin: 0 0 0 30px;
+  box-shadow: 2px 2px 30px gray;
+}
+.upper {
+  background:linear-gradient(white,#e3e9ec);
+  height: 230px;
+}
+.upper h2 {
+   display: inline-block;
+   margin: 50px 0 20px 0;  
+}
+.upper h3 {
+   margin: 0;  
+}
+.upper P {
+   margin: 0 0 50PX 0;  
+}
+.lower {
+  margin: 30px 0 0 0;
+}
+.lower p {
+  margin: 0 0 30px 0;
+}
+.lower a {
+  display: block;
+  text-decoration: none;
+  margin: 12px 0 0 0;
+}
+/* ========================= Testimonial =================== */
+.testimonial {
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.test-writing h2,p,img,h3 {
+  margin-bottom: 15px;
+}
+.test-writing div {
+  display: inline-block;
+  text-align: center;
+}
+/* ====================== FAQ =========================== */
+.faq {
+  height: 1050px;
+}
+.faq-heading {
+  text-align: center;
+}
+.faq-heading h2 {
+  margin: 0 0 20px 0;
+}
+.faq-heading p {
+  margin: 0 0 30px 0;
+}
+
+.faq-item{
+  margin-bottom: 10px;
+  background-color: #f5f7fa;
+  padding: 15px 20px 10px 20px;
+}
+.faq-body{
+  display: none;
+  margin-top: 30px;
+}
+.faq-wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+.faq-inner{
+  padding: 30px;
+  
+}
+.faq-plus{
+  float: right;
+  font-size: 35px;
+  line-height: 1em;
+  cursor: pointer;
+}
+hr{
+  background-color: #9b9b9b;
+}
+/* ====================== download ==================== */
+.download {
+  height: 420px;
+  background: url(../img/scooter-man.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.down-writing h2 {
+  margin: 0 0 30px 0;
+  padding: 50px 0 0 0;
+}
+.down-writing p {
+  margin: 0 0 30px 0;
+}
+.down-writing img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* ======================== footer ===================== */
+footer {
+  text-align: center;
+  height: 600px;
+  background-color: #09142e;
+}
+footer div img {
+  margin-top: 120px;
+}
+footer div ul li a{
+  text-decoration: none;
+  color: floralwhite;
+  padding: 20px;
+}
+footer div ul li a:hover {
+  color: orange;
+}
+footer div ul li {
+  margin-top: 20px;
+  list-style: none;
+}
+footer div p {
+  margin-top: 100px;
+  
+}
+footer div a {
+  text-decoration: none;
+  color: #273043;
+}
+footer div a:hover {
+  color: #ffffff;
+}
+footer div a i {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-right: 15px;
+}
